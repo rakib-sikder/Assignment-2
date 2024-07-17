@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@font-face {
+    font-family: 'miama';
+    src: url('./miama/Miama.ttf');
+}
+*{
+    list-style: none;
+    text-decoration: none;
+}
+/* common css */
+.df{
+    display: flex;
+}
+.background_color{
+background-color: black;
+}
+/* common css */
+.navbar{
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 10rem;
+}
+.navbar > i{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+.navbar ul li a{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+.navbar ul li{
+    padding: 8px 20px;
+    border-radius: 46px;
+}
+.navbar > ul > li:hover {
+    background-color: rgb(230, 83, 60);
+}
+.navbar > ul{
+    padding: 0;
+    gap: 20px;
+    border-radius: 39px;
+    border: 1px solid rgba(255, 255, 255, 0.205);
+}
