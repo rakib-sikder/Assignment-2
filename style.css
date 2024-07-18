@@ -4,6 +4,7 @@
     src: url('./miama/Miama.ttf');
 }
 *{
+    margin: 0;
     list-style: none;
     text-decoration: none;
 }
@@ -12,7 +13,12 @@
     display: flex;
 }
 .background_color{
-background-color: rgba(0, 0, 0, 0.9);
+background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(0, 0, 0, 0.82) 100%);
+}
+.bgblack{
+    margin: 0;
+    padding: 0;
+    background-color: black;
 }
 /* common css */
 
@@ -59,7 +65,9 @@ background-color: rgba(0, 0, 0, 0.9);
     padding: 2rem 10rem;
 }
 .bnrsection{
-    background: linear-gradient(0.00deg, rgb(17, 17, 17), rgb(0 0 0 / 90%) 100%);
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(0.00deg, rgb(0, 0, 0), rgba(0, 0, 0, 0.82) 100%);
 }
 .banner_text{
     padding-right: 27%;
@@ -91,7 +99,7 @@ background-color: rgba(0, 0, 0, 0.9);
     font-family: Inter;
     font-size: 1rem;
     font-weight: 400;
-    margin-top: -2.5rem;
+    margin-top: 2.5rem;
     margin-bottom: 1.7rem;
 }
 .banner_two_button > button{
@@ -178,4 +186,53 @@ background-color: rgba(0, 0, 0, 0.9);
     font-family: Inter;
     font-size: 16px;
     font-weight: 400;
+}
+/* habits */
+
+.habits{
+    text-align: center;
+    color: aliceblue;
+    padding: 2rem 10rem;
+}
+.habit_top{
+    padding: 0 25%;
+}
+.habit_top > h3 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+.habit_top > p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.habit_work{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px;
+}
+
+.work1 > img{
+    border-radius: 50%;
+    width: 100%;
+    border: 2px solid rgba(32, 32, 32, 0.596);
+}
+.work1 > h3{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+margin-top: 25px;
+margin-bottom: 10px;
+}
+.work1 > p{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
 }
