@@ -238,7 +238,7 @@ font-weight: 400;
 /* extra mile */
 .extramile{
     margin: 0rem 10rem;
-    padding: 4rem;
+    padding: 2rem;
     background: rgb(34, 34, 34);
     border-radius: 18px;
     width: auto;
@@ -304,11 +304,20 @@ margin: 14px 0 50px 0;
 .training_img{
     width: 100%;
     align-items: center;
-
 }
 .training_img img{
     width: 100%;
     height: 250px;
+}
+.training_img p {
+    position: absolute;
+    font-family: Inter;
+    top: 210px;
+    left: 25px;
+}
+.img2color > p, .img4color > p{
+    top: 30px;
+    left: 25px;
 }
 .img1{
     position: relative;
@@ -316,29 +325,61 @@ margin: 14px 0 50px 0;
 }
 .img1color{
     position: absolute;
-    height: auto;
-    width: auto;
-    background-color: aqua;
-}
-.img1 > img{
-    
+    height: 100%;
+    width: 100%;
+    background-color: rgba(6, 255, 210, 0.5);
 }
 .img2{
+    position: relative;
     width: 50%;
 }
+.img2color{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.3);
+}
 .img3{
+    position: relative;
     width: 30%;
 }
+.img3color{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
 .img4{
+    position: relative;
     width: 45%;
 }
+.img4color{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
 .img5{
+    position: relative;
     width: 20%;
 }
+.img5color{
+    position: relative;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(66, 255, 0, 0.3);
+}
 .img6{
+    position: relative;
     width: 35%;
 }
-
+.img6color{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 71, 255, 0.3);
+}
 
 
 /* bmi calcultor */
@@ -540,4 +581,56 @@ margin-bottom: 58px;
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
+}
+
+
+/* footer */
+.fitnessfooter{
+    padding: 4rem 10rem;
+}
+.footeritem{
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.item1 {
+}
+.item1 > i{
+    color: rgb(230, 83, 60);
+font-family: Inter;
+font-size: 70px;
+font-weight: 800;
+
+}
+.item1 > p{
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+}
+.item2 h3{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 32px;
+font-weight: 700;
+
+}
+#minimargin{
+    margin-top: 40px;
+}
+.item2 p{
+    margin: 20px 0;
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 23px;
+font-weight: 400;
+}
+.fitnessfooter > p{
+    border-top: 1px solid rgba(255, 255, 255, 0.205);
+    text-align: center;
+    padding: 2rem 0 0 0;
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
 }
