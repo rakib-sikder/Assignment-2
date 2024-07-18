@@ -47,6 +47,9 @@ background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(0, 0, 0, 0.82) 100%
     font-weight: 400;
     
 }
+.r_mobile{
+    display: none;
+}
 .navbar ul li{
     padding: 8px 20px;
     border-radius: 46px;
@@ -633,4 +636,247 @@ font-weight: 400;
 font-family: Inter;
 font-size: 20px;
 font-weight: 400;
+}
+
+
+
+
+/* responsive for mobile */
+@media screen and (max-width: 576px){
+    .navbar{
+        align-items: center;
+        justify-content: space-between;
+        padding: 2rem 1.5rem;
+    }
+    .navbar > ul{
+        display: none;
+    }
+    .r_mobile{
+        display: block;
+    }
+    .r_mobile i{
+        color: aliceblue;}
+
+        /* banner */
+
+
+    .banner{
+        flex-direction: column;
+        padding: 2rem 2rem;
+    }
+    .banner_text{
+        padding-right: 0%;
+    }
+    .banner_text > h1 {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 2rem;
+        font-weight: 900;
+    }
+
+    .shape {
+        display: inline-flex;
+        width: 110px;
+        height: 15px;
+        align-items: center;
+    }
+    .banner_text > h1 > div >span {
+        position: absolute;
+        color: rgb(255, 255, 255);
+        font-family: miama;
+        font-size: 4.75rem;
+        font-weight: 400;
+    }
+    .banner_two_button{
+        display: flex;
+    }
+    .banner_two_button > button {
+        padding: 1rem 1rem;
+        margin: 0 4px;
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 1.125rem;
+        font-weight: 600;
+        border-radius: 42px;
+        border: 1px solid white;
+        background-color: transparent;
+    }
+    .banner_img{
+        margin-top: 30px;
+    }
+    .overflow_text1 {
+        margin-left: 215px;
+        margin-top: 50px;
+        flex-direction: column;
+        position: absolute;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        backdrop-filter: blur(20px);
+        background: rgba(255, 255, 255, 0.1);
+    }
+    .overflow_text2 {
+        margin-left: -20px;
+        margin-top: 222px;
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(2, 1fr);
+        position: absolute;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        backdrop-filter: blur(20px);
+        background: rgba(255, 255, 255, 0.1);
+    }
+    .o_f_text {
+        flex-direction: column;
+        margin: 0 0px;
+    }
+    .circle {
+        margin-left: 15px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: rgb(230, 83, 60);
+    }
+
+
+    /* habit */
+    .habits {
+        text-align: center;
+        padding: 2rem 2rem;
+        padding-bottom: 5rem;
+    }
+    .habit_top > h3 {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 900;
+        margin-bottom: 14px;
+    }
+    .habit_top {
+        padding: 0;
+    }
+    .habit_work {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 60px;
+    }
+    .work1 > img {
+        border-radius: 50%;
+        width: 70%;
+        border: 5px solid rgba(32, 32, 32, 0.596);
+    }
+    /* extra mile */
+    .extramile {
+        margin: 0rem 1rem;
+        padding: 1rem;
+        background: rgb(34, 34, 34);
+        border-radius: 18px;
+        width: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+    }
+    /* training */
+    .training {
+        padding: 4rem 1rem;
+        color: white;
+    }
+    .training_text {
+        padding-right: 0;
+    }
+    .img1 {
+        position: relative;
+        width: 50%;
+    }
+    .img3 {
+        position: relative;
+        width: 30%;
+        display: none;
+    }
+    .img6 {
+        position: relative;
+        width: 30%;
+        display: none;
+    }
+    .img5 {
+        position: relative;
+        width: 55%;
+    }
+    .bmi {
+        text-align: left;
+        padding: 0rem 1rem 2rem;
+    }
+
+    .bmitxt {
+        padding: 0;
+    }
+    .bmitxt > h3 {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 900;
+        margin-bottom: 10px;
+    }
+    .bmicalculate {
+        padding: 2rem 1rem;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .Height {
+        background: rgba(255, 255, 255, 0.1);
+        padding: 12px 20px;
+        border-radius: 8px;
+        color: rgba(255, 255, 255, 0.6);
+        font-family: Inter;
+        font-size: 10px;
+        border: none;
+        font-weight: 400;
+        width: auto;
+    }
+    .clr {
+        background: rgba(255, 255, 255, 0.1);
+        padding: 7px 18px;
+        border-radius: 8px;
+        color: rgba(255, 255, 255, 0.3);
+        font-family: Inter;
+        font-size: 10px;
+        border: none;
+        font-weight: 400;
+    }
+    .factor {
+        margin-top: 15px;
+        margin-bottom: 34px;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.1);
+        padding: 11px 20px;
+        border-radius: 8px;
+        font-family: Inter;
+        font-size: 10px;
+        border: none;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.3);
+    }
+    .ourteam {
+        padding: 4rem 1rem;
+    }
+    .ourteamtxt {
+        text-align: center;
+        padding: 0;
+    }    
+    .ourteamimg {
+        border-radius: 18px;
+        background: rgba(255, 255, 255, 0.1);
+        padding: 20px;
+        gap: 20px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .fitnessfooter {
+        padding: 4rem 1rem;
+    }
+    .footeritem {
+        justify-content: space-between;
+        margin-bottom: 40px;
+        flex-direction: column;
+    }
 }
