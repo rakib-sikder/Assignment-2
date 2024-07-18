@@ -115,10 +115,7 @@ background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(0, 0, 0, 0.82) 100%
 }
 .banner_two_button > button:hover{
     background-color: rgb(230, 83, 60);
-    border: none;
-}
-.banner_img{
-    
+    border: 1px solid rgb(230, 83, 60);
 }
 .banner_img > img{
     width: auto;
@@ -193,6 +190,7 @@ background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(0, 0, 0, 0.82) 100%
     text-align: center;
     color: aliceblue;
     padding: 2rem 10rem;
+    padding-bottom: 5rem;
 }
 .habit_top{
     padding: 0 25%;
@@ -220,7 +218,7 @@ background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(0, 0, 0, 0.82) 100%
 .work1 > img{
     border-radius: 50%;
     width: 100%;
-    border: 2px solid rgba(32, 32, 32, 0.596);
+    border: 5px solid rgba(32, 32, 32, 0.596);
 }
 .work1 > h3{
     color: rgb(255, 255, 255);
@@ -235,4 +233,49 @@ margin-bottom: 10px;
 font-family: Inter;
 font-size: 14px;
 font-weight: 400;
+}
+
+/* extra mile */
+.extramile{
+    margin: 0rem 10rem;
+    padding: 4rem;
+    background: rgb(34, 34, 34);
+    border-radius: 18px;
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 600px;
+}
+.extramile > img{
+    width: 100%;
+    border-radius: 18px;
+}
+
+.extramile_txt > h3{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 48px;
+font-weight: 900;
+}
+.extramile_txt > p{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+margin: 14px 0 34px 0;
+}
+.extramile_txt > button{
+    padding: 1rem 2.5rem;
+    margin: 0 4px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.125rem;
+    font-weight: 600;
+    border-radius: 42px;
+    border: 1px solid white;
+    background-color: transparent;
+}
+.extramile_txt > button:hover{
+    background-color: rgb(230, 83, 60);
+    border: 1px solid rgb(230, 83, 60);
 }
