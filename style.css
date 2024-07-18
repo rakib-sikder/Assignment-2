@@ -20,6 +20,9 @@ background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(0, 0, 0, 0.82) 100%
     padding: 0;
     background-color: black;
 }
+.grey{
+    background: rgb(34, 34, 34);
+}
 /* common css */
 
 
@@ -65,12 +68,10 @@ background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(0, 0, 0, 0.82) 100%
     padding: 2rem 10rem;
 }
 .bnrsection{
-    margin: 0;
-    padding: 0;
     background: linear-gradient(0.00deg, rgb(0, 0, 0), rgba(0, 0, 0, 0.82) 100%);
 }
 .banner_text{
-    padding-right: 27%;
+    padding-right: 40%;
 }
 .banner_text > h1 {
     color: rgb(255, 255, 255);
@@ -188,7 +189,6 @@ background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(0, 0, 0, 0.82) 100%
 
 .habits{
     text-align: center;
-    color: aliceblue;
     padding: 2rem 10rem;
     padding-bottom: 5rem;
 }
@@ -276,6 +276,209 @@ margin: 14px 0 34px 0;
     background-color: transparent;
 }
 .extramile_txt > button:hover{
+    background-color: rgb(230, 83, 60);
+    border: 1px solid rgb(230, 83, 60);
+}
+/* training part */
+.training{
+    padding: 4rem 10rem;
+    color: white;
+}
+.training_text{
+    padding-right: 60%;
+}
+.training_text > h3{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 48px;
+font-weight: 900;
+}
+.training_text > p{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+margin: 14px 0 50px 0;
+}
+
+.training_img{
+    width: 100%;
+    align-items: center;
+
+}
+.training_img img{
+    width: 100%;
+    height: 250px;
+}
+.img1{
+    position: relative;
+    width: 20%;
+}
+.img1color{
+    position: absolute;
+    height: auto;
+    width: auto;
+    background-color: aqua;
+}
+.img1 > img{
+    
+}
+.img2{
+    width: 50%;
+}
+.img3{
+    width: 30%;
+}
+.img4{
+    width: 45%;
+}
+.img5{
+    width: 20%;
+}
+.img6{
+    width: 35%;
+}
+
+
+
+/* bmi calcultor */
+.bmi{
+    text-align: left;
+    padding: 1rem 10rem;
+    
+}
+.bmitxt{
+padding: 0 30% 3rem 30%;
+}
+.bmitxt > h3{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 48px;
+font-weight: 900;
+}
+.bmitxt > p{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+
+}
+
+
+.bmicalculate{
+    padding: 2rem 10rem;
+    justify-content: space-between;
+}
+.tablechart > h3{
+    margin: 50px 0;
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 28px;
+font-weight: 900;
+}
+table {
+
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+  }
+  tr{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+  }
+  td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    padding: 0 20px;
+    width: 120px;
+    height: 45px;
+    
+    
+  }
+  tr:first-child{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+  }
+  #mini{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+  }
+
+.bmicalculator{
+    
+    
+}
+
+.bmipadding > h3{
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 28px;
+font-weight: 900;
+}
+.bmipadding > p{
+    margin: 14px 0 34px 0;
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+}
+
+.inputpars{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.Height{
+    background: rgba(255, 255, 255, 0.1); 
+    padding: 12px 20px;
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter;
+    font-size: 16px;
+    border: none;
+    font-weight: 400;
+}
+.clr{
+    background: rgba(255, 255, 255, 0.1); 
+    padding: 12px 20px;
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 0.3);
+    font-family: Inter;
+    font-size: 16px;
+    border: none;
+    font-weight: 400;
+}
+.factor{
+    margin-top: 15px;
+    margin-bottom: 34px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1); 
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-family: Inter;
+    font-size: 16px;
+    border: none;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.calculatebtn > button{
+    padding: 1rem 4rem;
+    margin:  4px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.125rem;
+    font-weight: 600;
+    border-radius: 42px;
+    border: 1px solid white;
+    background-color: transparent;
+}
+.calculatebtn > button:hover{
     background-color: rgb(230, 83, 60);
     border: 1px solid rgb(230, 83, 60);
 }
