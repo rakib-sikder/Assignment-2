@@ -595,7 +595,8 @@ margin-bottom: 58px;
     justify-content: space-between;
     margin-bottom: 40px;
 }
-.item1 {
+.twotiem{
+    gap: 400px;
 }
 .item1 > i{
     color: rgb(230, 83, 60);
@@ -703,6 +704,7 @@ font-weight: 400;
     }
     .banner_img{
         margin-top: 30px;
+        justify-content:center ;
     }
     .overflow_text1 {
         margin-left: 215px;
@@ -715,8 +717,8 @@ font-weight: 400;
         background: rgba(255, 255, 255, 0.1);
     }
     .overflow_text2 {
-        margin-left: -20px;
-        margin-top: 222px;
+        margin-left: -210px;
+        margin-top: 235px;
         display: grid;
         align-items: center;
         grid-template-columns: repeat(2, 1fr);
@@ -878,5 +880,228 @@ font-weight: 400;
         justify-content: space-between;
         margin-bottom: 40px;
         flex-direction: column;
+    }
+    .twotiem {
+        gap: 0;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+}
+@media screen and (max-width: 992px) and (min-width: 576px) {
+
+    .navbar {
+        align-items: center;
+        justify-content: space-between;
+        padding: 2rem 0rem;
+    }
+    .banner_text {
+        padding-right: 0%;
+    }
+    .banner_img {
+        justify-content: center;
+    }
+    .banner {
+        justify-content: space-between;
+        padding: 2rem 3rem;
+        flex-direction: column;
+    }
+    .overflow_text1 {
+        margin-left: 220px;
+        margin-top: 60px;
+        flex-direction: column;
+        position: absolute;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        backdrop-filter: blur(20px);
+        background: rgba(255, 255, 255, 0.1);
+    }
+    .overflow_text2 {
+        margin-left: -210px;
+        margin-top: 340px;
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(2, 1fr);
+        position: absolute;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        backdrop-filter: blur(20px);
+        background: rgba(255, 255, 255, 0.1);
+    }
+    .habits {
+        text-align: center;
+        padding: 2rem 3rem;
+        padding-bottom: 5rem;
+    }
+    .habit_top {
+        padding: 10%;
+    }
+    .habit_work {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 60px;
+    }
+    .extramile {
+        margin: 0rem 3rem;
+        padding: 2rem;
+        background: rgb(34, 34, 34);
+        border-radius: 18px;
+        width: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .extramile > img {
+        width: 100%;
+        height: 289px;
+        border-radius: 18px;
+    }
+    
+    .training {
+        padding: 4rem 3rem;
+        color: white;
+    }
+    .training_text {
+        padding-right: 10%;
+    }
+    .bmi {
+        text-align: left;
+        padding: 1rem 3rem;
+    }
+    .bmitxt {
+        padding: 0;
+    }
+    .bmitxt > h3 {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 48px;
+        font-weight: 900;
+        margin: 20px 0;
+    }.bmitxt > h3 {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 48px;
+        font-weight: 900;
+        margin: 20px 0;
+    }
+    .bmicalculate {
+        padding: 2rem 3rem;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .ourteam {
+        padding: 4rem 3rem;
+    }
+    .ourteamtxt {
+        text-align: center;
+        padding: 0 10%;
+    }
+    .teamimg1 > img {
+        width: 100%;
+        border-radius: 18px;
+        height: 230px;
+    }
+    .teamimgtxt h3 {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 900;
+    }
+    .teamimgtxt p {
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .fitnessfooter {
+        padding: 4rem 3rem;
+    }
+    .footeritem {
+        justify-content: space-between;
+        margin-bottom: 40px;
+        flex-direction: column;
+    }
+    .twotiem {
+        gap: 40px;
+    }
+    .twotiem{
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .navbar {
+        align-items: center;
+        justify-content: space-between;
+        padding: 2rem 3rem;
+    }
+    .banner {
+        justify-content: space-between;
+        padding: 2rem 2rem;
+    }
+    .banner_text {
+        padding-right: 10%;
+    }
+    .extramile {
+        margin: 0rem 3rem;
+        padding: 2rem;
+        background: rgb(34, 34, 34);
+        border-radius: 18px;
+        width: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .extramile_txt {
+        width: 85%;
+    }
+    .extramile_txt > p {
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        margin: 40px 0 50px 0;
+    }
+    .extramile > img {
+        width: 60%;
+        height: 100%;
+        border-radius: 18px;
+        margin-left: auto;
+    }
+    .training_text {
+        padding-right: 15%;
+    }
+    .training {
+        padding: 4rem 3rem;
+        color: white;
+    }
+    .bmitxt {
+        padding: 0px 20% 3rem 20%;
+    }
+    .bmicalculate {
+        padding: 2rem 3rem;
+        justify-content: space-between;
+        gap: 50px;
+    }
+    .habits {
+        text-align: center;
+        padding: 2rem 2rem;
+        padding-bottom: 5rem;
+    }
+    .ourteamtxt {
+        text-align: center;
+        padding: 0 20%;
+    }
+    .ourteam {
+        padding: 4rem 3rem;
+    }
+    .fitnessfooter {
+        padding: 3rem 3rem;
+    }
+    .twotiem {
+        gap: 200px;
+    }
+    .habit_top {
+        padding: 0px 10%;
     }
 }
