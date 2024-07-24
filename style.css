@@ -164,11 +164,18 @@ background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(0, 0, 0, 0.82) 100%
 }
 
 .circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: 25px;
     width: 40px;
     height: 40px;
     border-radius: 50%;
     background-color: rgb(230, 83, 60);
+}
+.circle i{
+    margin-left: 2px;
+    color: antiquewhite;
 }
 .o_f_text{
     flex-direction: column;
@@ -732,14 +739,20 @@ font-weight: 400;
         flex-direction: column;
         margin: 0 0px;
     }
-    .circle {
+    .circle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         margin-left: 15px;
         width: 40px;
         height: 40px;
         border-radius: 50%;
         background-color: rgb(230, 83, 60);
     }
-
+    .circle i{
+        margin-left: 2px;
+        color: antiquewhite;
+    }
 
     /* habit */
     .habits {
@@ -1066,7 +1079,7 @@ font-weight: 400;
         width: 60%;
         height: 100%;
         border-radius: 18px;
-        margin-left: auto;
+        margin-left: auto;.
     }
     .training_text {
         padding-right: 15%;
