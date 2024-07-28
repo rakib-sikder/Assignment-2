@@ -106,7 +106,7 @@ background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(0, 0, 0, 0.82) 100%
     margin-top: 2.5rem;
     margin-bottom: 1.7rem;
 }
-.banner_two_button > button{
+.banner_two_button > a > button{
     padding: 1rem 2.5rem;
     margin: 0 4px;
     color: rgb(255, 255, 255);
@@ -117,7 +117,7 @@ background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(0, 0, 0, 0.82) 100%
     border: 1px solid white;
     background-color: transparent;
 }
-.banner_two_button > button:hover{
+.banner_two_button > a > button:hover{
     background-color: rgb(230, 83, 60);
     border: 1px solid rgb(230, 83, 60);
 }
@@ -274,7 +274,7 @@ font-size: 14px;
 font-weight: 400;
 margin: 14px 0 34px 0;
 }
-.extramile_txt > button{
+.extramile_txt > a > button{
     padding: 1rem 2.5rem;
     margin: 0 4px;
     color: rgb(255, 255, 255);
@@ -285,7 +285,7 @@ margin: 14px 0 34px 0;
     border: 1px solid white;
     background-color: transparent;
 }
-.extramile_txt > button:hover{
+.extramile_txt > a > button:hover{
     background-color: rgb(230, 83, 60);
     border: 1px solid rgb(230, 83, 60);
 }
@@ -518,7 +518,7 @@ font-weight: 400;
     color: rgba(255, 255, 255, 0.3);
 }
 
-.calculatebtn > button{
+.calculatebtn > a > button{
     padding: 1rem 4rem;
     margin:  4px;
     color: rgb(255, 255, 255);
@@ -529,7 +529,7 @@ font-weight: 400;
     border: 1px solid white;
     background-color: transparent;
 }
-.calculatebtn > button:hover{
+.calculatebtn > a > button:hover{
     background-color: rgb(230, 83, 60);
     border: 1px solid rgb(230, 83, 60);
 }
@@ -698,7 +698,7 @@ font-weight: 400;
     .banner_two_button{
         display: flex;
     }
-    .banner_two_button > button {
+    .banner_two_button > a > button {
         padding: 1rem 1rem;
         margin: 0 4px;
         color: rgb(255, 255, 255);
@@ -1079,7 +1079,7 @@ font-weight: 400;
         width: 60%;
         height: 100%;
         border-radius: 18px;
-        margin-left: auto;.
+        margin-left: auto;
     }
     .training_text {
         padding-right: 15%;
@@ -1117,4 +1117,5 @@ font-weight: 400;
     .habit_top {
         padding: 0px 10%;
     }
+
 }
