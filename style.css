@@ -695,7 +695,7 @@ font-weight: 400;
         display: flex;
     }
     .banner_two_button > a > button {
-        padding: 1rem 1rem;
+        padding: 0.7rem 0.7rem;
         margin: 0 8px;
         color: rgb(255, 255, 255);
         font-family: Inter;
