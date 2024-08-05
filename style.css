@@ -720,7 +720,7 @@ font-weight: 400;
         background: rgba(255, 255, 255, 0.1);
     }
     .overflow_text2 {
-        margin-left: -210px;
+        margin-left: -165px;
         margin-top: 235px;
         display: grid;
         align-items: center;
@@ -835,7 +835,7 @@ font-weight: 400;
     }
     .Height {
         background: rgba(255, 255, 255, 0.1);
-        padding: 12px 20px;
+        padding: 12px 12px;
         border-radius: 8px;
         color: rgba(255, 255, 255, 0.6);
         font-family: Inter;
@@ -846,7 +846,7 @@ font-weight: 400;
     }
     .clr {
         background: rgba(255, 255, 255, 0.1);
-        padding: 7px 18px;
+        padding: 7px 12px;
         border-radius: 8px;
         color: rgba(255, 255, 255, 0.3);
         font-family: Inter;
@@ -859,7 +859,7 @@ font-weight: 400;
         margin-bottom: 34px;
         width: 100%;
         background: rgba(255, 255, 255, 0.1);
-        padding: 11px 20px;
+        padding: 11px 12px;
         border-radius: 8px;
         font-family: Inter;
         font-size: 10px;
@@ -902,7 +902,7 @@ font-weight: 400;
     .navbar {
         align-items: center;
         justify-content: space-between;
-        padding: 2rem 0rem;
+        padding: 2rem 3rem;
     }
     .banner_text {
         padding-right: 0%;
@@ -1075,17 +1075,17 @@ font-weight: 400;
     .navbar {
         align-items: center;
         justify-content: space-between;
-        padding: 2rem 3rem;
+        padding: 2rem 5rem;
     }
     .banner {
         justify-content: space-between;
-        padding: 2rem 2rem;
+        padding: 2rem 5rem;
     }
     .banner_text {
         padding-right: 10%;
     }
     .extramile {
-        margin: 0rem 3rem;
+        margin: 0rem 5rem;
         padding: 2rem;
         background: rgb(34, 34, 34);
         border-radius: 18px;
@@ -1114,20 +1114,20 @@ font-weight: 400;
         padding-right: 15%;
     }
     .training {
-        padding: 4rem 3rem;
+        padding: 4rem 5rem;
         color: white;
     }
     .bmitxt {
         padding: 0px 20% 3rem 20%;
     }
     .bmicalculate {
-        padding: 2rem 3rem;
+        padding: 2rem 5rem;
         justify-content: space-between;
         gap: 50px;
     }
     .habits {
         text-align: center;
-        padding: 2rem 2rem;
+        padding: 2rem 5rem;
         padding-bottom: 5rem;
     }
     .ourteamtxt {
@@ -1135,10 +1135,10 @@ font-weight: 400;
         padding: 0 20%;
     }
     .ourteam {
-        padding: 4rem 3rem;
+        padding: 4rem 5rem;
     }
     .fitnessfooter {
-        padding: 3rem 3rem;
+        padding: 3rem 5rem;
     }
     .twotiem {
         gap: 200px;
