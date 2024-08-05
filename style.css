@@ -696,10 +696,10 @@ font-weight: 400;
     }
     .banner_two_button > a > button {
         padding: 1rem 1rem;
-        margin: 0 4px;
+        margin: 0 8px;
         color: rgb(255, 255, 255);
         font-family: Inter;
-        font-size: 1.125rem;
+        font-size: 1rem;
         font-weight: 600;
         border-radius: 42px;
         border: 1px solid white;
@@ -859,7 +859,7 @@ font-weight: 400;
         margin-bottom: 34px;
         width: 100%;
         background: rgba(255, 255, 255, 0.1);
-        padding: 10px 12px;
+        padding: 11px 12px;
         border-radius: 8px;
         font-family: Inter;
         font-size: 10px;
