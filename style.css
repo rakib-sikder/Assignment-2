@@ -929,7 +929,7 @@ font-weight: 400;
         border: none;
         font-weight: 400;
     }
-    .factor {
+    .factor{
         margin-top: 15px;
         margin-bottom: 34px;
         width: 100%;
@@ -963,6 +963,12 @@ font-weight: 400;
         gap: 20px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+    .teamimgtxt h3 {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 26px;
+        font-weight: 900;
     }
     .fitnessfooter {
         padding: 4rem 1rem;
