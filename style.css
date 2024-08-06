@@ -910,7 +910,7 @@ font-weight: 400;
     }
     .Height {
         background: rgba(255, 255, 255, 0.1);
-        padding: 12px 12px;
+        padding: 15px 12px;
         border-radius: 8px;
         color: rgba(255, 255, 255, 0.6);
         font-family: Inter;
@@ -921,7 +921,7 @@ font-weight: 400;
     }
     .clr {
         background: rgba(255, 255, 255, 0.1);
-        padding: 7px 12px;
+        padding: 15px 12px;
         border-radius: 8px;
         color: rgba(255, 255, 255, 0.3);
         font-family: Inter;
@@ -934,7 +934,7 @@ font-weight: 400;
         margin-bottom: 34px;
         width: 100%;
         background: rgba(255, 255, 255, 0.1);
-        padding: 12px 12px;
+        padding: 15px 12px;
         border-radius: 8px;
         font-family: Inter;
         font-size: 10px;
@@ -942,7 +942,7 @@ font-weight: 400;
         font-weight: 400;
         color: rgba(255, 255, 255, 0.3);
     }
-    
+
     .ourteam {
         padding: 4rem 1rem;
     }
