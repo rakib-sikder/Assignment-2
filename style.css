@@ -803,7 +803,7 @@ font-weight: 400;
     /* extra mile */
     .extramile {
         margin: 0rem 1rem;
-        padding: 1rem;
+        padding: 2rem;
         background: rgb(34, 34, 34);
         border-radius: 18px;
         width: auto;
@@ -818,8 +818,8 @@ font-weight: 400;
         font-weight: 900;
     }
     .extramile_txt > a > button {
-        /* padding: 1rem 2.5rem; */
-        padding: 0.7rem 0.7rem;
+        padding: 1rem 2.5rem;
+        width: 95%;
         margin: 0 4px;
         color: rgb(255, 255, 255);
         font-family: Inter;
