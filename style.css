@@ -326,7 +326,7 @@ margin: 14px 0 50px 0;
     top: 210px;
     left: 25px;
 }
-.img2color > p, .img4color > p{
+.img2color > p, .img4color > p, .img6color > p{
     top: 30px;
     left: 25px;
 }
@@ -842,6 +842,16 @@ font-weight: 400;
         font-family: Inter;
         font-size: 2rem;
         font-weight: 900;
+    }
+    .training_img p {
+        position: absolute;
+        font-family: Inter;
+        top: 110px;
+        left: 25px;
+    }
+    .img2color > p, .img4color > p, .img6color > p{
+        top: 30px;
+        left: 25px;
     }
     .training_img img {
         width: 100%;
