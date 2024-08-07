@@ -1055,7 +1055,12 @@ font-weight: 400;
         height: 289px;
         border-radius: 18px;
     }
-    
+    .extramile_txt > h3 {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 40px;
+        font-weight: 900;
+    }
     .training {
         padding: 4rem 3rem;
         color: white;
@@ -1131,13 +1136,18 @@ font-weight: 400;
     .teamimg1 > img {
         width: 100%;
         border-radius: 18px;
-        height: 230px;
+        height: 100%;
     }
     .teamimgtxt h3 {
         color: rgb(255, 255, 255);
         font-family: Inter;
         font-size: 20px;
         font-weight: 900;
+    }
+    .teamimg1 {
+        border-radius: 18px;
+        height: auto;
+        position: relative;
     }
     .teamimgtxt p {
         color: rgba(255, 255, 255, 0.5);
@@ -1190,7 +1200,7 @@ font-weight: 400;
         font-family: Inter;
         font-size: 14px;
         font-weight: 400;
-        margin: 40px 0 50px 0;
+        margin: 20px 0 32px 0;
     }
     .extramile > img {
         width: 60%;
